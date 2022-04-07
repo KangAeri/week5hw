@@ -10,9 +10,9 @@ int main(){
 		scanf("%d", &page);		//페이지 수를 입력받음 
 		numofeach(page, countarr);		//계산을 실행하는 numofeach 함수 호출, 인자로 page와 countarr배열을 넘김 
 		printnum(countarr);				//계산된 결과를 저장한 배열의 내용을 출력하는 함수 printnum 함수 호출  
-		printf("\n"); 					//다음 입력을 위해 줄바꿈 
+		printf(".\n"); 				 
 		for(j=0 ; j<10 ; j++){			
-			countarr[j]=0;	//다음 입력에 대한 계산을 위해 countarr의 내용을 모두 0으로 다시 초기화 
+			countarr[j]=0;	
 		}
 	}
 	return 0;
